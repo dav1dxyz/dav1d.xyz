@@ -1,2 +1,2 @@
-# davidpsmith.xyz
+# dav1d.xyz
 website
