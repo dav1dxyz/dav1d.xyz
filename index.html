@@ -54,6 +54,13 @@
         padding: 10px;
       }
       
+      /* Fix box not fitting on mobile screens properly (temp fix until I find a better solution) */
+      @media (max-width: 768px) {
+        #box {
+          width: 300px;
+        }
+      }
+      
       #box p {
         white-space: pre-line;
         margin: 0;
