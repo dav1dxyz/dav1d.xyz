@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width initial-scale=1.0" name="viewport">
+    <title>dav1d.xyz website</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        scroll-behavior: smooth;
+      } 
+
+      .fwh-slide {
+        height: 100vh;
+        box-sizing: border-box;
+        background: lightgrey;
+        padding: 35px;
+      }
+
+      .fwh-slide-about {
+        background: lightgrey;
+      }
+
+
+      .fwh-slide h1 {
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        color: blue;
+      }
+
+      .next {
+        text-decoration: none;
+        font-size: 35px;
+      }
+      .next:hover {
+        color: blue
+      }
+
+      #smol {
+        font-size: 12px;
+      }
+
+      #box {
+        border: 1px solid gray;
+        width: 600px;
+        padding: 10px;
+      }
+      
+      #box p {
+        white-space: pre-line;
+        margin: 0;
+        padding: 0;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <section class="fwh-slide">
+        <h1 id="title"><a href="/">dav1d.xyz</a></h1>
+        <p>Hi! This is my website, which will have lots of stuff on it :D, idk what yet tho.. lol</p>
+      
+        <span style="font-weight: bold; text-decoration: underline;">Socials</span><br>
+        <a href="https://twitter.com/dav1d_cat" target="_blank">Twitter</a><br>
+        <a href="discord.com/users/832248960097583165" target="_blank">Discord</a><br>
+        <a href="https://t.me/dav1d_cat" target="_blank">Telegram</a><br><br>
+
+        <a href="#next" class="next">↓</a>
+      </section>
+      <section class="fwh-slide fwh-slide-about" id="next">
+        <h1>A little about me</h1><br>
+        <img src="./images/pfp.jpg" alt="dav1d_cat pfp" width="200" height="200">
+        <p id="smol">yep, that's me. I smell</p>
+        <div id="box">
+        <p>Hi, I'm David. I am a 22 year old furry from England. I don't have much to say, but I enjoy playing games in my time and talking to friends.
+          I'm currently doing university online in computing. I enjoy it, but it can be confusing. 
+          I'm looking forward to the activity where people make their own websites. I guess this is kind of a practice for that :).
+          I use Arch Linux on my desktop computer and Debian 11 on my laptop. 
+          I've always dabbled with Linux on and off, but never stuck with it due to incompatibilities with software, as well as gaming related issues (lower frame-rate than Windows etc). But I've made it work mostly. 
+          I just use a VM for Windows stuff if I need to (which I do for uni stuff).
+        </p> 
+        </div>
+
+      </section>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/dav1dxyz/dav1d.xyz" target="_blank">sauce code</a>
+    </footer>
+  </body>
+</html>
